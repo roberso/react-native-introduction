@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-native-introduction",
-    "slug": "testing",
+    "slug": "react-native-introduction",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -31,9 +31,8 @@
     },
     "extra": {
       "eas": {
-        "projectId": "6986d60e-21cc-4f59-bc9e-6ca4bbf11b9f"
+        "projectId": "69ca147b-23ab-438c-9b7e-279383bb6dbd"
       }
-    },
-    "owner": "robokenn"
+    }
   }
 }

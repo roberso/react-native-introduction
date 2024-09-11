@@ -5,10 +5,10 @@ import { s } from "./App.style"
 
 export default function App() {
   return (<SafeAreaProvider>
-    <SafeAreaView style={{ flex: 1, flexDirection: "row", justifyContent: "center" }}>
-      <View style={s.box1} />
-      <View style={s.box2} />
-      <View style={s.box3} />
+    <SafeAreaView>
+      <Text style={s.title}>hello</Text>
+      <View style={s.square}><Text style={s.innerText}>Yo Yo!</Text></View>
+      <Profile />
     </SafeAreaView>
   </SafeAreaProvider>
   );
